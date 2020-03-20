@@ -38,13 +38,13 @@
 				<div>
 
 					<label for="cboKommentar" class="control-label">Övriga kommentarer:</label>
-					<input type="checkbox" id="cboKommentar" class="form-control" onclick="showCheckBoxInfo();"/>
+					<input type="checkbox" id="cboKommentar" class="form-control" onclick="showCheckBoxInfo(this);"/>
 				
 				</div>
 				<div>
 
-					<input type="button" value="Select test" class="btn btn-info" onclick="showSelectInfo();"/>
-					<input type="button" value="Options test" class="btn btn-info" onclick="showOptionsInfo();"/>
+					<input type="button" value="Select test" class="btn btn-info" onclick="showSelectInfo(this.form);"/>
+					<input type="button" value="Options test" class="btn btn-info" onclick="showOptionsInfo(this.form);"/>
 					<input type="reset" value="Rensa" class="btn btn-info" />
 					
 				</div>
@@ -52,7 +52,7 @@
 						
 		</div>
 	   
-	   <script src="ex1.j"></script>
+	   <script src="ex1.js"></script>
     </body>
 	
 </html>
